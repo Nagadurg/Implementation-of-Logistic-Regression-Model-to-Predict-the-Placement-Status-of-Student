@@ -6,6 +6,7 @@ To write a program to implement the the Logistic Regression Model to Predict the
 ### Equipments Required:
 Hardware – PCs
 Anaconda – Python 3.7 Installation / Moodle-Code Runner
+
 ### Algorithm
 ### Step1:
 import pandas module.
@@ -77,7 +78,6 @@ from sklearn.metrics import classification_report
 classification_report1 = classification_report(y_test,y_pred)
 print(classification_report1)
 print(lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]]))
-
 
 ## Output:
 ![output](./3.1.png)
