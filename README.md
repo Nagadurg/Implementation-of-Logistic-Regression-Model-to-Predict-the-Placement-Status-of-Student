@@ -34,6 +34,7 @@ End the program.
 
 
 ## Program:
+````
 /*
 Program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
 Developed by: Chevula.Naga durga
@@ -78,6 +79,7 @@ from sklearn.metrics import classification_report
 classification_report1 = classification_report(y_test,y_pred)
 print(classification_report1)
 print(lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]]))
+```
 
 ## Output:
 ![output](./3.1.png)
